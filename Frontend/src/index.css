@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+div.container h1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(255, 255, 255);
+  text-decoration-line: none;
+}
+.container a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.delete{
+  color: #000000;
+  background-color: #ffe9e9;
+  cursor: pointer;
+  border: 1px solid red;
+  padding: 3px;
+  border-radius: 3px;
+}
+.delete:hover{
+  color: #000000;
+  background-color: #ffb3b3;
+  cursor: pointer;
+  border: 1px solid red;
+  padding: 3px;
+  border-radius: 3px;
+}
+input.error{
+  border: #e7195a;
+}
+.recipeDetails{
+  background-color: #f1f1ff;
+  border: 1px solid #e7195a;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 1%;
+}
